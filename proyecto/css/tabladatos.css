@@ -1,0 +1,117 @@
+.sectionT{
+ 
+     color: #ffffff;
+      background: #bb413b; 
+       border-radius: 15px;
+       margin: 30px;
+}
+.h1T{
+ text-align: center;
+ font-size:60px;
+ font-family: Californian FB;
+ 
+}
+
+table.tabla{
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.4em;
+    font-style: normal;
+    border-collapse:separate;
+}
+.tabla thead th{
+    padding:15px;
+    color:#fff;
+    text-shadow:1px 1px 1px #bb413b;
+    border:1px solid #bb413b;
+    border-bottom:3px solid #bb413b;
+    background-color:#bb413b;
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -moz-border-radius:5px 5px 0px 0px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+.tabla tbody td{
+    padding:10px;
+    text-align:center;
+    background-color:#ffffff;
+    border: 2px solid #bb413b;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border-radius:2px;
+    color:#666;
+    text-shadow:1px 1px 1px #fff;
+}
+input[type="submit"]{
+	font-family:'Open Sans Condensed', sans-serif;
+	text-transform:uppercase;
+	outline:none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	background-color: #bb413b;
+	padding: 10px;
+	color: white;
+	border: 1px solid #831608;
+	border-radius: 3px;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 5px;
+	cursor: pointer;
+	position:relative;
+	top:0;
+}
+input[type="submit"]:hover{
+	background-color: #bb413b;
+    background-image: linear-gradient(#aa2618, #bb413b);
+}
+input[type="submit"]:active{
+	background-color: #bb413b;
+    background-image: linear-gradient(#aa2618, #bb413b);
+}
+
+
+@media screen and (max-width: 700px){
+	.sectionT{
+   
+     color: #ffffff;
+      background: #bb413b; 
+       border-radius: 10px;
+       margin: 15px;
+}
+.h1T{
+
+ font-size:40px;
+ font-family: Californian FB;
+ 
+}
+    .o{
+        display: none;
+    }
+   
+	}
+	@media screen and (max-width: 620px){
+	  .sectionT{
+
+     color: #ffffff;
+      background: #bb413b; 
+       border-radius: 8px;
+       margin: 10px;
+}
+.h1T{
+
+ font-size:20px;
+ font-family: Californian FB;
+ 
+}
+ .o{
+        display: none;
+    }
+    .p{
+        display: none;
+    }
+}
