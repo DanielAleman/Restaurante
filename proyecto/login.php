@@ -1,4 +1,4 @@
-<?php
+﻿<?php
     $usuario = "";
 	$contra = "";
 	$datos = array();
@@ -50,5 +50,6 @@
 		</form>
 	</div>
 </div>
+<article>PRUEBA PAL MOY</article>
 </body>
 </html>
