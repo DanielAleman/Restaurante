@@ -1,0 +1,201 @@
+.sectionT{
+ 
+     color: #ffffff;
+      background: #bb413b; 
+       border-radius: 15px;
+       margin: 30px;
+}
+.h1T{
+ 
+ font-size:60px;
+ font-family: Californian FB;
+ 
+}
+
+#form {
+	font-family:'Open Sans Condensed', sans-serif;
+	width: 400px;
+	min-width:250px;
+	margin: 20px auto;
+	position: relative;
+}
+#form .fieldset {
+	background-color:#d5d5d5;
+	border-radius: 3px;
+}
+#form legend {
+	text-align: center;
+	background: #bb413b;
+	width: 100%;
+	padding: 30px 0;
+	border-radius: 3px 3px 0 0;
+	color: white;
+	font-size:2em;
+}
+.fieldset form{
+	border:1px solid #831608;
+	margin:0 auto;
+	display:block;
+	width:100%;
+	padding:30px 20px;
+	box-sizing:border-box;
+	border-radius:0 0 3px 3px;
+}
+#form input[type="text"], #form input[type="number"], #form input[type="password"]{
+	padding: 15px 20px;
+	border-radius: 1px;
+	margin:5px auto;
+	background-color:#f7f7f7;
+	border: 1px solid silver;
+	-webkit-box-shadow: inset 0 1px 5px rgba(0,0,0,0.2);
+	box-shadow: inset 0 1px 5px rgba(0,0,0,0.2), 0 1px rgba(255,255,255,.8);
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition:background-color .5s ease;
+	-moz-transition:background-color .5s ease;
+	-o-transition:background-color .5s ease;
+	-ms-transition:background-color .5s ease;
+	transition:background-color .5s ease;
+}
+#form input[type="text"]:active, #form input[type="password"]:active{
+	outline: none;
+	border-color: silver;
+	background-color:white;
+}
+#form input[type="reset"], #form input[type="submit"]{
+	font-family:'Open Sans Condensed', sans-serif;
+	text-transform:uppercase;
+	outline:none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	background-color: #bb413b;
+	padding: 10px;
+	color: white;
+	border: 1px solid #831608;
+	border-radius: 3px;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 5px;
+	cursor: pointer;
+	position:relative;
+	top:0;
+}
+#form input[type="reset"]:hover, #form input[type="submit"]:hover{
+	background-color: #bb413b;
+    background-image: linear-gradient(#aa2618, #bb413b);
+}
+#form input[type="reset"]:active, #form input[type="submit"]:active{
+	background-color: #bb413b;
+    background-image: linear-gradient(#aa2618, #bb413b);
+}
+@media screen and (max-width: 640px){
+	.fieldset form{
+	    border:1px solid #831608;
+    	margin:0 auto;
+    	display:block;
+    	width:100%;
+    	padding:15px 15px;
+    	box-sizing:border-box;
+    	font-size:15px;
+    	border-radius:0 0 3px 3px;
+    }
+    #form .fieldset {
+    	background-color:#d5d5d5;
+    	border-radius: 1.5px;
+    }
+    .file{
+       	width: 50%;
+    	padding:10px 10px;
+        
+    }
+    .button{
+    	font-size:15px;
+    	width: 20%;
+        height: 30%;
+    }
+    #form{
+    	width: 50%;
+    	padding:10px 10px;
+    }
+    #form legend {
+	    text-align: center;
+    	background: #bb413b;
+    	width: 100%;
+    	padding: 30px 0;
+    	border-radius: 3px 3px 0 0;
+    	color: white;
+    	font-size:25px;
+    }
+    #form input[type=reset]:hover, #form input[type=submit]:hover{
+    	background-color: #bb413b;
+        background-image: linear-gradient(#aa2618, #bb413b);
+        font-size:20px;
+    }
+    #form input[type=reset]:active, #form input[type=submit]:active{
+    	background-color: #bb413b;
+        background-image: linear-gradient(#aa2618, #bb413b);
+        font-size:20px;
+    }
+    #form input[type=reset], #form input[type=submit]{
+    	font-family:'Open Sans Condensed', sans-serif;
+    	text-transform:uppercase;
+    	outline:none;
+    	-webkit-box-sizing: border-box;
+    	-moz-box-sizing: border-box;
+    	-ms-box-sizing: border-box;
+    	box-sizing: border-box;
+    	width: 100%;
+    	background-color: #bb413b;
+    	padding: 5px;
+    	color: white;
+    	border: 1px solid #831608;
+    	border-radius: 3px;
+    	font-weight: bold;
+    	margin-top: 5px;
+    	cursor: pointer;
+    	position:relative;
+    
+    	font-size:20px;
+    }
+    .a{
+    	font-size:13.7px;
+    }
+}
+@media screen and (max-width: 700px){
+	.sectionm{
+   
+     color: #ffffff;
+      background: #bb413b; 
+       border-radius: 10px;
+       margin: 15px;
+}
+.h1{
+ text-align: center;
+ font-size:40px;
+ font-family: Californian FB;
+ 
+}
+   
+   
+	}
+	@media screen and (max-width: 620px){
+	  .sectionT{
+
+     color: #ffffff;
+      background: #bb413b; 
+       border-radius: 8px;
+       margin: 10px;
+}
+.h1T{
+ 
+ font-size:20px;
+ font-family: Californian FB;
+ 
+}
+}

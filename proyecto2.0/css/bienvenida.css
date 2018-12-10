@@ -1,0 +1,179 @@
+
+.article2{
+	font-size:20px;
+	 color: #ffffff; 
+}
+
+.sectionm2{
+      opacity: 0.6;
+     color: #ffffff;
+      background: #e73d19; 
+       border-radius: 15px;
+       margin: 30px;
+}
+.section1{
+
+	color: #ffffff; 
+	font-size:20px;
+	text-align: center;
+	background: #bb413b; 
+	margin: 30px;
+	padding: 30px;
+	border-radius: 15px;
+	border-style: solid;
+
+}
+.section2{
+
+	color: #ffffff; 
+	font-size:20px;
+	text-align: center;
+	background: #bb413b;
+	margin: 30px;
+	border-radius: 15px;
+	padding: 30px;
+	border-style: solid;
+
+}
+.ima{
+	border-radius: 15px;
+}
+.ha{
+   	border-radius: 15px; 
+}
+.article3{
+	font-size:20px;
+	 color: #FFFFFF; 
+}
+.articlep{
+	font-size:25px;
+	 color: #000000; 
+}
+
+.sectionm{
+     opacity: 0.6;
+     color: #ffffff;
+      background: #e73d19; 
+       border-radius: 15px;
+       margin: 30px;
+}
+
+.h1{
+ text-align: center;
+ font-size:85px;
+ font-family: Californian FB;
+ 
+}
+h2{
+ text-align: center;
+ font-size:75px;
+ font-family: Californian FB;
+}
+
+article{
+    font-size:35px;
+     color: #ffffff; 
+}
+a{
+    font-family: Californian FB;
+    font-size:40px;
+    text-align: center;
+    margin: 3px;
+    padding: 3px;
+    background: #bb413b;
+    color: #ffffff;
+}
+a:hover{
+    font-family: Californian FB;
+    font-size:40px;
+    text-align: center;
+    margin: 3px;
+    padding: 3px;
+    background: #e73d19;
+    color: #ffffff;
+}
+
+
+
+
+@media screen and (max-width: 700px){
+	
+     .table{
+     	display: contents;
+     	padding: 4px;
+     }
+  
+     .th{
+     	display: block;
+     	font-size: 20px;
+     	padding: 4px;
+     }
+     .ima{
+		display: block;
+		margin: 2px;
+		padding: 4px;
+		border-radius: 15px;
+        }
+       .sectionm{
+     opacity: 0.6;
+     color: #ffffff;
+      background: #e73d19; 
+       border-radius: 10px;
+       
+      
+       
+}
+
+ 
+  .h1{
+ text-align: center;
+ font-size:45px;
+ font-family: Californian FB;
+  color: #FFFFFF;
+}
+    .h2{
+    text-align: center;
+font-size:50px;
+   font-family: Californian FB;
+   color: #000000; 
+
+}
+.articlep{
+   	font-size:20px; 
+   	padding:2px;
+}
+	}
+	@media screen and (max-width: 620px){
+	  .ima{
+
+     width: 60%;
+     height: 40%;
+     
+     text-align: center;
+     }
+     .th{
+     	display: block;
+     	font-size: 15px
+     }
+     
+        
+   
+    .sectionm{
+     opacity: 0.6;
+     color: #ffffff;
+      background: #e73d19; 
+       border-radius: 10px;
+      
+}
+
+      .h1{
+ text-align: center;
+ font-size:45px;
+ font-family: Californian FB;
+ color: #FFFFFF;
+}
+.articlep{
+   	font-size:20px; 
+   	padding:2px;
+}
+}
